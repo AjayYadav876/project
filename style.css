@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.header {
+  background: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: red;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.btn-primary .btn-secondary {
+  display: flex;
+  justify-content: flex-start;
+}
+.btn-secondary {
+  background-color: white;
+  color: #e74c3c;
+  border-radius: 25px;
+}
+
+.header-buttons {
+  display: flex;
+  justify-items: flex-start;
+}
+
+.hero {
+  display: flex;
+  background: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-buttons a {
+  margin: 10px;
+}
+
+.hero-stats ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.hero-stats strong {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+.about-video {
+  display: flex;
+  justify-content: flex-start;
+}
+.features {
+  background-color: #e74c3c;
+  height: 200px;
+  color: #ddd;
+}
+.features p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  background-color: #e74c3c;
+  color: white;
+  height: 300px;
+}
+#container h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.tools,
+.testimonials,
+.cta {
+  padding: 50px 0;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-column1 h3 ul li {
+  display: flex;
+  justify-content: space-around;
+}
